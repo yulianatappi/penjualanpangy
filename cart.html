@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjualan Pangi | keranjang belanja</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/
+    bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+</head>
+<body>
+
+    <!--navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark main-color">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand me-auto" href="#">Toko Penjual</a>
+            <ul class="navbar-nav">
+              <li class="nav-item me-5">
+                <a class="nav-link " href="index.html">Home</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="produk.html">Produk</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link active" href="#">Promo</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link active" href="#" tabindex="-1" 
+                aria-disabled="true"><i class="bi bi-cart"></i>Keranjang</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- table -->
+    <div class="container-fluid py-5">
+      <h2 class="text-center my-5">Keranjang belanja</h2>
+
+      <div class="table-responsive">
+        <table class="table">
+          <tr>
+            <th>#</th>
+            <th>Pesanan</th>
+            <th>Harga</th>
+            <th>Jumlah</th>
+            <th>Total</th>
+          </tr>
+          <tr style="vertical-align: middle;">
+            <td>
+              <a href="image/product/thumb/sayur pangi.jpeg" data-lightbox="french fries" data-title="french fries">
+              <img src="image/product/thumb/sayur pangi.jpeg" class="img-thumbnail" width="150px" alt="">
+            </a>
+            </td>
+            <td>sayur pangi</td>
+            <td>Rp 60.000</td>
+            <td>1 kg </td>
+            <td>RP 60.000</td>
+          </tr>
+
+          <tr style="vertical-align: middle;">
+            <td>
+              <a href="image/product/thumb/kaloko.jpg" data-lightbox="french fries" data-title="french fries">
+              <img src="image/product/thumb/kaloko.jpg" class="img-thumbnail" width="150px" alt="">
+            </a>
+            </td>
+            <td>kaloko</td>
+            <td>Rp 70.000</td>
+            <td>1 kg </td>
+            <td>RP 70.000</td>
+          </tr>
+
+          <tr style="vertical-align: middle;">
+            <td>
+              <a href="image/product/thumb/pamarrasan.jpg" data-lightbox="french fries" data-title="french fries">
+              <img src="image/product/thumb/pamarrasan.jpg" class="img-thumbnail" width="150px" alt="">
+            </a>
+            </td>
+            <td>pamarrasan</td>
+            <td>Rp 30.000</td>
+            <td>1 kg </td>
+            <td>RP 30.000</td>
+          </tr>
+          <tr>
+            <th colspan="4">total</th>
+            <th>Rp 160.000</th>
+          </tr>
+        </table>
+      </div>
+
+      <button class="btn btn-warning text-light">checkout</button>
+    </div>
+
+    <!-- subscribe -->
+    <div class="container-fluid py-5 content-subscribe text-light">
+      <div class="container">
+        <h5 class="text-light text-center mb-5">Temui Kami</h5>
+        <div class="row justify-content-center">
+          <div class="col-lg-1 d-flex justify-content-center mb-2">
+            <i class="bi bi-Facebook fs-4"></i>
+          </div>
+
+          <div class="col-lg-1 d-flex justify-content-center mb-2">
+            <i class="bi bi-Instagram fs-4"></i>
+          </div>
+
+          <div class="col-lg-1 d-flex justify-content-center mb-2">
+            <i class="bi bi-Twitter fs-4"></i>
+          </div>
+
+          <div class="col-lg-1 d-flex justify-content-center mb-2">
+            <i class="bi bi-Youtube fs-4"></i>
+          </div>
+        </div>
+        
+        <h5 class="text-center mt-5 mb-0">subscribe</h5>
+        <p class="text-center font-monospace">untuk infirmasi promo</p>
+        <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Recipient's username" 
+          aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn btn-warning text-light" type="button" id="button-addon2">subscrib
+          </button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid py-3 bg-dark text-light">
+      <div class="container d-flex justify-content-center">
+        <label>&copy;2024 toko pangi</label>
+        <label></label>
+      </div>
+    </div>
+    </div>
+    </div>
+    
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+
+</body>
+</html>

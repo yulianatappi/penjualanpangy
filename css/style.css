@@ -1,0 +1,49 @@
+body {
+    font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida 
+    Sans', Arial, sans-serif;
+}
+
+.main-color {
+    background-color: rgb(182, 78, 87) !important;
+}
+
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../image/product/kumpulan\ foto\ pangi.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hovered-card {
+    transition: .3s;
+}
+
+.hovered-card {
+    transform: scale(1.1);
+}
+
+.icon-service {
+    width: 80px;
+    height: 80px;
+    border: solid #aaa0a0 2px;
+    border-radius: 50px;
+    color: #8b8282;
+}
+
+.content-subscribe {
+    background-color : rgba(77, 74, 74, 0.486);
+}
+
+.banner-produk {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../image/product/kumpulan\ foto\ pangi.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-promo {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../image/product/kumpulan\ foto\ pangi.jpg');
+    background-size: cover;
+    background-position: center;
+}

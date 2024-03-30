@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjualan pangi | promo</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/
+    bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+</head>
+<body>
+
+    <!--navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark main-color">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand me-auto" href="#">Toko Penjual</a>
+            <ul class="navbar-nav">
+              <li class="nav-item me-5">
+                <a class="nav-link " href="index.html">Home</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="produk.html">Produk</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link active" href="#">Promo</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="cart.html" tabindex="-1" 
+                aria-disabled="true"><i class="bi bi-cart"></i>Keranjang</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--banner-->
+    <div class="container-fluid banner.promo d-flex align-items-center">
+        <div class="container">
+          <h1 class="text-light text-center mb-3">semua promo buat anda</h1> 
+        </div>
+    </div>
+
+    <!-- promo -->
+    <div class="container-fluid py-5">
+        <div class="container">
+          <!-- kategori promo -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-sm-4 col-md-3 col-lg-2 mb-3">
+                    <button id="semuaPromoBtn" class="btn btn-outline-warning w-100 fs-5 active">semua promo</button>
+                </div>
+            </div>
+
+          <!-- isi promo -->
+          <!-- semua promo -->
+          <div id="semuaPromo">
+            <div class="row justify-content-center mb-5">
+              <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                <div class="card">
+                  <a href="image/product/thumb/sayur pangi.jpeg" data-lightbox="chocolate mouse" 
+                  data-title="chocolate mouse">
+                    <img src="image/product/thumb/sayur pangi.jpeg" class="card-img-top" alt="...">
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Sayur Pangi</h5>
+                    <p class="card-text">Sayur pangi juga dapat diolah menjadi makanan atau sayuran, 
+                      bisa dicampur dengan daging, ikan dan dipadukan dengan pamarrasan.</p>
+                  </div>
+                </div> 
+              </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                  <div class="card">
+                    <a href="image/product/thumb/kaloko.jpg" data-lightbox="chocolate mouse" 
+                    data-title="chocolate mouse">
+                      <img src="image/product/thumb/kaloko.jpg" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Kaloko</h5>
+                      <p class="card-text">kaloko pangi bagian yang paling enak dari buah pangi, 
+                        sehingga dijadikan sebagai sayur atau dimasak dangan ikan.</p>
+                    </div>
+                  </div> 
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                  <div class="card">
+                    <a href="image/product/thumb/pamarrasan.jpg" data-lightbox="chocolate mouse" 
+                    data-title="chocolate mouse">
+                      <img src="image/product/thumb/pamarrasan.jpg" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Pamarrasan</h5>
+                      <p class="card-text">pamarrasan yaitu salah satu bumbu yang digunakan dalam berbagai masakan khas toraja.</p>
+                    </div>
+                  </div> 
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- subscribe -->
+    <div class="container-fluid py-5 content-subscribe text-light">
+      <div class="container">
+        <h5 class="text-light text-center mb-5">Temui Kami</h5>
+        <div class="row justify-content-center">
+          <div class="col-lg-1 d-flex justify-content-center mb-2">
+            <i class="bi bi-Facebook fs-4"></i>
+          </div>
+
+          <div class="col-lg-1 d-flex justify-content-center mb-2">
+            <i class="bi bi-Instagram fs-4"></i>
+          </div>
+
+          <div class="col-lg-1 d-flex justify-content-center mb-2">
+            <i class="bi bi-Twitter fs-4"></i>
+          </div>
+
+          <div class="col-lg-1 d-flex justify-content-center mb-2">
+            <i class="bi bi-Youtube fs-4"></i>
+          </div>
+        </div>
+        
+        <h5 class="text-center mt-5 mb-0">subscribe</h5>
+        <p class="text-center font-monospace">untuk infirmasi promo</p>
+        <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Recipient's username" 
+          aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn btn-warning text-light" type="button" id="button-addon2">subscrib
+          </button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid py-3 bg-dark text-light">
+      <div class="container d-flex justify-content-center">
+        <label>&copy;2024 toko pangi</label>
+        <label></label>
+      </div>
+    </div>
+
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+
+    <script>
+      var btnSemuaPromo = $("#semuaPromoBtn");
+
+      var semuaPromoView = $("#semuaPromo");
+    </script>
+    
+</body>
+</html>
